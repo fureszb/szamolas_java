@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Szamok {
 
     public static void main(String[] args) {
+
         Scanner bekeres = new Scanner(System.in);
         System.out.print("Töbször akarunk egy számot felhasználni [igen | nem]: ");
         String valasz = bekeres.next();
-        System.out.println(valasz);
         if (valasz.equals("igen")) {
             for (int k = 2; k <= 4; k++) {
                 for (int i = 2; i <= 4; i++) {
