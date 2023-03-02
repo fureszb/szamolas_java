@@ -9,5 +9,8 @@ package ciklusok;
  * @author fures
  */
 public class Szamok {
+    public static void main(String[] args) {
+    
+    }
     
 }
